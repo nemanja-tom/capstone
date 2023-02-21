@@ -26,6 +26,10 @@ h1 {
     line-height: 3.5rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 a.button {
     background-color: #4a4a4a;
     border: none;
@@ -120,7 +124,7 @@ nav.menu li {
 .information {
     background-color: white;
     padding: 0;
-    display: flex;
+    display: inline-flex;
 }
 
 .information .img {
@@ -151,24 +155,59 @@ nav.menu li {
     display: flex;
     flex-direction: column;
     flex: 40rem;
+    padding: 1rem 0 0 0;
+    border-left: 1px solid #d8d8d8;
 }
 
-.info img {
-    width: 100%;
-    min-width: 5rem;
+.information .news .info {
+    display: inline-flex;
 }
 
-/* .information .news .info {
-    display: flex;
+.information .news .info.orientation {
+    border-bottom: 1px solid #d8d8d8;
+    padding-top: 0;
+}
+
+.information .news .info.grayBG {
+    background-color: #d8d8d8;
 }
 
 .information .news .info .img {
-    display: flex;
+    flex: 35%;
+    padding: 1rem;
+}
+
+.information .news .info .img img {
+    width: 100%;
 }
 
 .information .news .info .text {
     display: flex;
-} */
+    flex-direction: column;
+    justify-content: center;
+    flex: 65%;
+}
+
+.information .news .info .text h3 {
+    margin-bottom: 0.2rem;
+}
+
+.information .news .info .text p {
+    margin-bottom: 0.5rem;
+}
+
+.information .news .info .text a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-size: 0.9rem;
+}
+
+/* Start */
+
+.start {
+    background-color: #4a4a4a;
+    height: 200px;
+}
 
 /* Footer */
 
