@@ -11,22 +11,30 @@
     <link rel="stylesheet" href="resources/css/style.css" type="text/css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img id="logo" src="resources/images/ic-logo.svg" alt="Capstone logo">
+    <!-- Header DESKTOP -->
+    <header class="desktop">
+        <a class="logo" href="#">
+            <img id="logo" src="resources/images/ic-logo.svg" alt="Colmar Academy logo icon">
             <p><span class="darkgray">COLMAR</span><span class="lightgray">ACADEMY</span></p>
-        </div>
+        </a>
         <nav class="menu">
             <ul>
-                <li>On campus</li>
-                <li>Online</li>
-                <li>For companies</li>
-                <li>Sign in</li>
+                <li><a href="#">On campus</a></li>
+                <li><a href="#">Online</a></li>
+                <li><a href="#">For companies</a></li>
+                <li><a href="#">Sign in</a></li>
             </ul>
         </nav>
     </header>
+    <!-- Header MOBILE -->
+    <header class="mobile">
+        <a href="#"><img src="resources/images/ic-logo.svg" alt="Colmar Academy logo icon"></a>
+        <a href="#"><img src="resources/images/ic-on-campus.svg" alt="On campus icon"></a>
+        <a href="#"><img src="resources/images/ic-online.svg" alt="Online icon"></a>
+        <a href="#"><img src="resources/images/ic-login.svg" alt="Login icon"></a> 
+    </header>
     <main>
-        <!-- Benner -->
+        <!-- Banner -->
         <div class="banner">
             <div class="img">
                 <img src="resources/images/banner.jpg" alt="young people reading and writing at a desk">
@@ -37,8 +45,8 @@
                 <a href="#" class="button">Start here</a>
             </div>
         </div>
-        <!-- Information -->
-        <div class="information">
+        <!-- Information Desktop -->
+        <div class="information desktop">
             <div class="img">
                 <img src="resources/images/information-main.jpg" alt="a young man reading a book outdoors">
                 <div class="text">
@@ -80,8 +88,29 @@
                 </div> 
             </div>
         </div>
+        <!-- Information Mobile -->
+        <div class="information mobile">
+            <div class="info">
+                <img src="resources/images/information-orientation-mobile.jpg" alt="people walking along a path">                    
+                <h3>Orientation date</h3>
+                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                <a href="#">Read more</a>
+            </div> 
+            <div class="info">
+                <img src="resources/images/information-campus-mobile.jpg" alt="people sitting in a recreation area"> 
+                <h3>Our campus</h3>
+                <p>Find which campus is close by you</p>
+                <a href="#">Read more</a>
+            </div>    
+            <div class="info">
+                <img src="resources/images/information-guest-lecture-mobile.jpg" alt="a man with gray beard, glasses and a cap">
+                <h3>Learn something new every day</h3>
+                <p>Our guest lecture</p>
+                <a href="#">Read more</a>
+            </div> 
+        </div>
         <!-- Start -->
-        <div class="start">
+        <div class="start desktop">
             <h1>Start learning</h1>
             <div class="grid">
                 <div class="box">
