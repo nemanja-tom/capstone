@@ -472,7 +472,35 @@ footer p {
     .information.mobile .info p {
         margin-bottom: 0.33rem;
     }
-    .start.desktop {
+    /* START */
+    .start {
+        background-color: white;
+        padding: 2.66rem 1.33rem;
+        border-bottom: 1px solid #d8d8d8;
+    }
+    
+     img,
+    .start .grid .box .text h4,
+    .start .grid .box .text p {
         display: none;
+    }
+    .start .grid {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        /* background-color: #d8d8d8; */
+    }
+    .start .grid .box .text h3 {
+        line-height: 1.5rem;
+    }
+    .start .grid .box .text {
+        background-color: #d8d8d8;
+        /* width: 100%; */
+    }
+    .start .grid .box.middle {
+        margin: 2rem 0;
+    }
+    .start .grid .box .text {
+        padding: 1.8rem;
     }
 }
