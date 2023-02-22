@@ -479,7 +479,7 @@ footer p {
         border-bottom: 1px solid #d8d8d8;
     }
     
-     img,
+    .start .grid .box img,
     .start .grid .box .text h4,
     .start .grid .box .text p {
         display: none;
@@ -502,5 +502,26 @@ footer p {
     }
     .start .grid .box .text {
         padding: 1.8rem;
+    }
+    /* Exhibit */
+    .exhibit .row .text, .exhibit .row .news {
+        display: none;
+    }
+    .exhibit {
+        padding-left: 0;
+    }
+    .exhibit .row .vid {
+        padding: 0 0 2rem 0;
+    }
+    /* Footer */
+    footer {
+        padding: 1.33rem 0;
+    }
+    footer ul {
+        display: none;
+    }
+    footer p {
+        text-align: center;
+        margin: 0 auto;
     }
 }
